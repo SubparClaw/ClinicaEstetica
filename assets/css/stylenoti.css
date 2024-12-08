@@ -1,0 +1,106 @@
+.open>.dropdown-menu {
+    display: block;
+}
+
+ul.dropdown-menu {
+    padding: 0;
+    min-width: 250px;
+    top: 101%;
+}
+
+ul.dropdown-menu {
+    animation: flipInX 1s ease;
+    -moz-animation: flipInX 1s ease;
+    -webkit-animation: flipInX 1s ease;
+    -webkit-backface-visibility: visible !important;
+    -ms-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -moz-backface-visibility: visible !important;
+    data-wow-delay: ".1s";
+}
+
+.dropdown-menu {
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, .175);
+    -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, .175);
+    -moz-box-shadow: 2px 3px 4px rgba(0, 0, 0, .175);
+    border-radius: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+
+
+ul.dropdown-menu li {
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+    background: #fff;
+}
+
+.notification_desc {
+    float: left;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.notification_header {
+    background-color: #FAFAFA;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 8px;
+}
+
+.notification_header h3 {
+    color: #6A6A6A;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.notification_bottom {
+    background-color: rgba(200, 129, 230, 0.14);
+    padding: 4px 0;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.badge1 {
+    position: absolute;
+    top: -3px;
+    right: 16px;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+.badge1 {
+    display: inline-block;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    background-color: #D81B60;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
